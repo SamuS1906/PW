@@ -1,0 +1,35 @@
+
+.container-principal{
+    display: inline-block;
+    margin-left: 1%;
+    width: 96%;
+    padding: 1%;
+    background-color: #dc850e;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.container-principal h3{
+    text-align: center;
+    font-size: 60px;
+}
+
+.container-principal img{
+    float: left;
+    width: 30%;
+}
+
+.container-principal .expo1{
+    float: left;
+    width: 45%;
+}
+
+.container-principal .expo2{
+    float: right;
+    width: 45%;
+}
+
+.container-principal .titulo-expo{
+    text-align: center;
+    font-size: 50px;
+}

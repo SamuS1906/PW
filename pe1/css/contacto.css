@@ -1,0 +1,17 @@
+.sobre h2{
+    text-align: center;
+    color: beige;
+    font-size: 60px;
+}
+
+.sobre img{
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+
+.sobre p{
+    color: beige;
+    margin-top: 10%; 
+    font-size: 30px; 
+}

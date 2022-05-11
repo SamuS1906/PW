@@ -1,0 +1,87 @@
+
+form{
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    padding: 0.5%;
+}
+
+form input[type="date"]{
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+form legend{
+    font-size: 24pt;
+    font-weight: bold;
+    color: #e7970d;
+    text-align: center;
+}
+
+form label{
+    font-size: 18pt;
+    color: #e7970d;
+}
+
+form input{
+    font-size: 18pt;
+    border: 1px solid #e7970d;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+form select{
+    font-size: 18pt;
+    background-color: white;
+    border: 1px solid #e7970d;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+form section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.categoria{
+    font-size: 14pt;
+    margin-right: 2%;
+    color: white;
+}
+
+form textarea{
+    resize: none;
+    font-size: 14pt;
+    background-color: white;
+    border: 1px solid #e7970d;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input[type="submit"]{
+    width: 20%;
+    border: 2px solid;
+    background-color: #e7970d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0%;
+    padding: 1%;
+}
+
+form input[type="submit"]:hover{
+    background-color: #e7970d;
+}
+
+form input[type="submit"]:active{
+    opacity: 0.9;
+}

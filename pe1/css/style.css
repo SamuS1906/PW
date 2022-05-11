@@ -1,0 +1,99 @@
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    height: 200%;
+    background: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    padding: 0%;
+    overflow: auto;
+    
+}
+
+
+#logo {
+    float: left;
+    width: 70%;
+    vertical-align: middle;
+    padding: 5%;
+} 
+
+.titulo {
+    float: left;
+    color: white;
+    text-align: center;
+    width:100%;
+    font-size:2vw;
+}
+
+.Sesion{
+    float: right;
+}
+
+.Sesion #CampoLog {
+    float: right;
+    width: 10%;
+    margin-bottom: 6%;
+
+}
+
+#CampoLog label{
+    color: white;
+    margin: auto;
+    padding: 6%;
+}
+
+.Registros {
+    padding: 6%;
+    float: right;
+}
+
+
+ul{
+
+    background-color: blue;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li {
+    
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #0e3969;
+    font-size: 20px;
+    margin-top: 1%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+

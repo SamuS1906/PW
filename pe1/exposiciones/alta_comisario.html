@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/alta_publico.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Pagina de incio | Expo Egipto</title>
+
+
+</head>
+<header>
+    
+    <a href="index.html">
+        <img id="logo" src ="../Imagenes/ojo horus 2.jpg" alt ="Foto logo" />
+    </a>
+    
+    <hgroup class="titulo">
+        <h1>¿Qué pasa, Ra?</h1>
+        <h2>Exposición temporal</h2>
+    </hgroup>
+    
+    <div class="Sesion">
+        <fieldset id="CampoLog">
+            
+            <label for="Usuario">Usuario</label>
+            <input type="text" id="CampoUsuario" name="CampoUsuario"/>
+            
+            <label for="Contraseña">Contraseña</label>
+            <input type="text" id="CampoContraseña" name="CampoContraseña"/>
+            
+            <input type="submit" id="EnviarLog" value="Enviar"/>
+        </fieldset>
+        
+        <div class="Registros">
+            <a href="alta_publico.html" style="color: cyan">Registro de usuarios</a>            
+            
+            <a href="alta_comisario.html" style="color: cyan">Registro de comisarios </a>               
+        </div>
+    </div>
+</header>
+
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="fotografia.html">Fotografía</a></li>
+            <li><a href="arquitectura.html">Arquitectura</a></li>
+            <li><a href="sobre.html">Sobre nosotros</a></li>
+        </ul>
+    </nav> 
+
+    <form method="POST" action="todook.html">
+        <legend>¡Únete a nuestro museo!</legend>
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" required/>
+        <label for="primerApellido">Primer apellido *</label>
+        <input type="text" id="primerApellido" required/>
+        <label for="segundoApellido">Segundo apellido</label>
+        <input type="text" id="segundoApellido"/>
+        <label for="nickname">Nombre de usuario *</label>
+        <input type="text" maxlength="15" id="nickname" required/>
+        <label for="passphrase">Contraseña *</label>
+        <input type="password" id="passphrase" required/>
+        <label for="correoElectronico">Correo electrónico *</label>
+        <input type="text" id="correoElectronico" required/>
+        <label for="fechaNacimiento">Fecha de nacimiento *</label>
+        <input class="input-fecha" type="date" id="fechaNacimiento" required/>
+        <label>¿A qué exposición estás más interesad@ en ir?</label>
+        <section>
+            <input type="checkbox" id="checkFaraon" value="apuntarseFaraon" />
+            <label class="categoria" for="checkFaraon">Faraon</label>
+            <input type="checkbox" id="checkMomia" value="apuntarseMomia" />
+            <label class="categoria" for="checkMomia">Momia</label>
+            <input type="checkbox" id="checkBibliotecaAlejandría" value="apuntarseBibliotecaAlejandría" />
+            <label class="categoria" for="checkBibliotecaAlejandría">Biblioteca de Alejandría</label>
+            <input type="checkbox" id="checkEneada" value="apuntarseEneada" />
+            <label class="categoria" for="checkEneada">Eneada</label>
+        </section>
+        <label>¿Alguna vez has realizado una cuenta de un museo? *</label>
+        <section>
+            <input type="radio" id="radioSi" name="miembro" required/>
+            <label class="categoria" for="radioSi">Sí</label>
+            <input type="radio" id="radioNo" name="miembro" required/>
+            <label class="categoria" for="radioNo">No</label>
+        </section>
+        <label for="conocimiento">¿Cómo nos conociste? *</label>
+        <textarea id="conocimiento" rows="5" placeholder="A través de un anuncio, por internet..." required></textarea>
+        <br/>
+        <input type="submit" class="form-button" id="enviarFormulario" value="Enviar formulario"/>
+    </form>
+
+</body>
+
+<footer>
+    <a href="contacto.html">Contacto</a>
+    <a> - </a>
+    <a href="como_se_hizo.pdf">Cómo se hizo</a>
+</footer>

@@ -1,0 +1,9 @@
+Tengo que hacer tabla del horario
+tablas cosas
+rowspan="n" es para comerte n espacios de filas
+colspan="n" es para coemrte n espacios de columnas
+thead es para la que sería la primera fila de la tabla ( en el horario donde van los dias de la semana)
+tbody es donde irian digamos las clases
+tfoot sería el pie de tabla (por ejempo para hacer un total de una sumatoria)
+th representa siempre digamos las celdas de titulos( dias de la semana o intervalos horarios)
+mientras que td representa digamos celdas normales
